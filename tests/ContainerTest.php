@@ -5,9 +5,8 @@ namespace Tests;
 use Booth\Container;
 use Booth\NotFoundException;
 use PHPUnit\Framework\Attributes\Test;
-use PHPUnit\Framework\TestCase;
 
-class ContainerTest extends TestCase
+class ContainerTest
 {
     #[Test]
     public function test_register(): void
